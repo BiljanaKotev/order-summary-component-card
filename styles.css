@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card-container {
+  background-color: #fbffff;
+  border-radius: 1.25rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 6.25rem auto;
+  width: 25rem;
+  height: 37.5rem;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  width: 25rem;
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-top: 3.125rem;
+  text-align: center;
+}
+
+.order {
+  color: hsl(224, 23%, 55%);
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1.563rem 3.125rem 1.25rem 3.125rem;
+  text-align: center;
+}
+
+.annual-plan {
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 0.625rem;
+  color: hsl(223, 47%, 23%);
+  display: flex;
+  gap: 1.25rem;
+  height: 4.688rem;
+  justify-content: space-evenly;
+  margin-bottom: 3.125rem;
+  margin: 0 auto;
+  width: 21.25rem;
+}
+
+.link-change:hover {
+  text-decoration: none;
+}
+
+.btn-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  border-radius: 0.625rem;
+  color: white;
+  margin-top: 1.25rem;
+  padding: 0.625rem 0 0.625rem 0;
+  text-align: center;
+  width: 21.25rem;
+}
+
+button:hover {
+  background-color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
+
+.btn-cancel {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+  margin-top: 1.875rem;
+  text-align: center;
+}
+
+.attribution {
+  text-align: center;
+}
